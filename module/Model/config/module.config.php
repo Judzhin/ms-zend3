@@ -5,18 +5,20 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-/**
- * List of enabled modules for this application.
- *
- * This should be an array of module namespaces used in the application.
- */
+namespace MSBios\Model;
+
+use Zend\Router\Http\Literal;
+use Zend\Router\Http\Segment;
+use Zend\ServiceManager\Factory\InvokableFactory;
+
 return [
-    'Zend\Session',
-    'Zend\Log',
-    'Zend\Db',
-    'Zend\Cache',
-    'Zend\Router',
-    'Zend\Validator',
-    'MSBios\Model',
-    'Application'
+    'router' => [
+        'routes' => [
+
+        ],
+    ],
+    'controllers' => [
+        'factories' => [
+        ],
+    ]
 ];

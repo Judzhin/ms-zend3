@@ -12,5 +12,14 @@
  */
 
 return [
+//    'db' => [
+//        'driver' => 'Pdo',
+//        'dsn' => 'mysql:dbname=zend3.tut;host=localhost',
+//    ],
+//    'service_manager' => [
+//        'factories' => [
+//            \Zend\Db\Adapter\Adapter::class => \Zend\Db\Adapter\AdapterServiceFactory::class,
+//        ],
+//    ],
     // ...
 ];

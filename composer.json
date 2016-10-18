@@ -24,12 +24,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Application\\": "module/Application/src/"
+      "Application\\": "module/Application/src/",
+      "MSBios\\Model\\": "module/Model/src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ApplicationTest\\": "module/Application/test/"
+      "ApplicationTest\\": "module/Application/test/",
+      "MSBios\\ModelTest\\": "module/Model/test/"
     }
   },
   "extra": [],
