@@ -29,6 +29,9 @@ class IndexControllerTest extends AbstractHttpControllerTestCase
         parent::setUp();
     }
 
+    /**
+     * @slowThreshold 1
+     */
     public function testIndexActionCanBeAccessed()
     {
         $this->dispatch('/', 'GET');
